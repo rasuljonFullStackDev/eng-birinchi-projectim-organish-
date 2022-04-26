@@ -1,0 +1,465 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: relative;
+}
+nav{
+    height: 50px;
+    background-color: #212121;
+}
+.navbor {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+.menu .menu_item{
+    border-right: 2px dotted blue;
+    padding-right: 28px;
+}
+.subheader{
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color:rgba(0,0,0, .6);/* alpha kanal */
+    /* opacity: 0.6;buni ishlatsak hammas narsa 60% kurinadi holos  */
+}
+.subheader .subheader_logo{
+    display: block;
+    max-width: 100%;/* logo almashsaym mksimal kengligi shundoq qoladi */
+    margin-top: 16px;
+
+}
+.subheader .subheader_official{
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+}
+.subheader .subheader_call{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 19px;
+    text-align: right;
+}
+.subheader .subheader_phone{
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+}
+.subheader .subheader_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.promo{
+    min-height: 800px;
+    background: url('../img/bg img/bg home.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.promo .promo_header{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0;
+}
+.promo .promo_subheader{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+.promo .promo_descr{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+}
+.promo .promo_btn{
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 68px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text_icons{
+	min-height: 765px;
+	margin: 0 auto;
+	margin: 70px 0 64px 0;
+}
+
+.object {
+	margin: 0  auto;
+	justify-content: center;
+	align-items: center;
+	width: 113px;
+	height: 25px;	
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 11px;
+	padding-top:5px;	
+	text-align: center;
+}
+.name{
+	color: #222222;
+	font-size: 38px;
+	text-align: center;
+	margin-top: 38px;
+}
+#row{
+	position: relative;
+	margin-top: 40px;
+}
+#row h4{
+	color: #1eacc7;
+	font-size: 17px;
+}
+#row #col{
+	margin-bottom: 35px;
+	color: rgb(0 0 0 .7);
+	font-size: 14px;
+	text-align: justify;
+
+}
+#row #col1{
+	margin-bottom: 65px;
+	color: rgb(0 0 0 .7);
+	font-size: 14px;
+	text-align: justify;
+}
+.img{
+	justify-content: center;
+	align-items: center;
+}
+.section_images{
+	min-height: 865px;
+	padding: 48px 0 80px 0;
+	margin:  0 auto; 
+}
+.imgs_header{
+	width: 113px;
+	height: 25px;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 5px;
+}
+.imgs_title{
+	color: #222222;
+	font-size: 38px;
+	margin-top: 38px;
+}
+.imgs_text{
+	color: #222222;
+	font-size: 17px;
+	margin-top: 19px;
+}
+#row_img{
+	margin-top: 32px;
+}
+.images_more{
+	position: relative;
+	min-height: 865px;
+	padding: 48px 0 80px 0;
+	margin: 0 auto;
+}
+.image_header{
+	margin: 0  auto;
+	justify-content: center;
+	align-items: center;
+	width: 113px;
+	height: 25px;	
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 11px;
+	padding-top:5px;	
+	text-align: center;
+}
+.images_more .image_header{
+	background: black;
+	color: white;
+}
+.image_name{
+	color: #222222;
+	font-size:38px;
+	text-align: center;
+	margin-top: 38px;
+}
+.image_about{
+	color: #222222;
+	margin-top: 19px;
+	margin-bottom: 32px;
+	font-size: 17px;
+	text-align: center;
+
+}
+.image_1{
+	background: url('../img/1.jpg') center center/cover no-repeat;
+	width: 320px;
+	height: 280px;
+	padding-top: 92px;
+}
+.image_2{
+	background: url('../img/2.jpg') center center/cover no-repeat;
+	width: 320px;
+	height: 280px;
+	padding-top: 92px;
+}
+.image_3{
+	background: url('../img/3.jpg') center center/cover no-repeat;
+	width: 320px;
+	height: 280px;
+	padding-top: 92px;
+}
+.image_4{
+	background: url('../img/4.jpg') center center/cover no-repeat;
+	width: 320px;
+	height: 280px;
+	padding-top: 92px;
+}
+.image_5{
+	background: url('../img/5.jpg') center center/cover no-repeat;
+	width: 320px;
+	height: 280px;
+	padding-top: 92px;
+}
+.image_6{
+	background: url('../img/6.jpg') center center/cover no-repeat;
+	width: 320px;
+	height: 280px;
+	padding-top: 92px;
+}
+.text{
+	position: relative;
+	left: 30px;
+	color: #FFFFFF;
+	font-size: 24px;
+	width: 267px;
+	height: 53px;
+	text-align: center;
+}
+ .mini_icon{
+	position: relative;
+	display: block;
+	margin: auto;
+	margin-top:74px;
+	background-color: black;
+	border-radius: 50%; 
+	padding: 3px;
+}
+.uber_car{
+	position: relative;
+	height: 500px;
+	background: #070716;
+	padding-top: 57px;
+}
+.uber_hone{
+	content: #070716;
+	background: #FFFFFF;
+	margin: 0  auto;
+	justify-content: center;
+	align-items: center;
+	width: 113px;
+	height: 25px;	
+	font-size: 11px;
+	padding-top:5px;	
+	text-align: center;
+}
+.uber_name{
+	color: #FFFFFF;
+	font-size:38px;
+	margin-top: 32px;
+	text-align: center;
+}
+.uber_text{
+	color: #FFFFFF;
+	font-size: 17px;
+	text-align: center;
+	margin-top: 19px;
+}
+.uber_img{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	width: 759px;
+	height: 480px;
+	margin-top: 56px;
+}
+.car_about{
+	height: 398px;
+	padding: 218px 0 138px 0;
+}
+.text_about{
+	display: block;
+	margin: auto;
+	color: #222222;
+	width: 297px;
+	font-size: 17px;
+	text-align: center;
+}
+.item{
+padding-bottom: 83px;
+}
+.item ul li{
+		list-style-image: url('../img/svg/Layer 31@1X (1).png');
+		}
+
+#item ul li{
+	list-style-image: url('../img/svg/Layer 31 copy 7@1X.png');
+}
+.item .item_name,.item_end{
+		color: #1CA8C3;
+		font-size: 22px;
+
+	}
+.item .image_header{
+	background: black;
+	color: white;
+}
+#item .item_name{
+		color: #FF5656;
+		font-size: 22px;
+		margin-top: 62px;
+}
+.map{
+	min-height: 718px;
+	background: url('../img/bg img/bg end.jpg') center center/cover no-repeat;
+	padding: 49px 0 ;
+}
+.image_header{
+	background-color:white;
+	color:black;
+}
+.map_header{
+	color: white;
+	font-size: 38px;
+	margin-top: 32px;
+	text-align: center;
+}
+.map_text{
+	color: #FFFFFF;
+	font-size: 17px;
+	margin-top: 20px;
+	text-align: center;
+}
+.map_end{
+	color: #1FBAD6;
+	font-size: 15px;
+	margin-top: 486px;
+	text-align: center;
+}
+.footer{
+	min-height:156px ;
+	padding: 13px 0 39px 0;
+}
+.line{
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	height: 5px;
+	background: #1FBAD6;
+}
+.icons,.more,.more_end{
+	margin-top: 32px;
+}
+.icons{
+	position: relative;
+	float: left;
+	margin-left: 22px;
+}
+svg{
+	margin-right: 8px;
+	width: 33px;
+	height: 33px;
+}
+.more{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-top: 32px;
+}
+.more ul li{
+	float:left;
+	list-style-type: none;
+	text-align: center;
+	margin-right: 46px;
+	color: #070716;
+	font-size: 15px;
+}
+.img_end{
+	position: relative;
+	margin-right: 23px;
+	top: -30px;
+}
+.img_end img{
+	float: right;
+	width: 90px;
+	height: 27px;
+	margin-right: 4px;
+}
+.footer_end{
+	text-align: center;
+	margin-top: 16px;
+	background: none;
+
+}
+.footer_end a{
+	color: #999999;
+	font-size: 11px;
+	margin-right: 21px;
+}
+.footer_leng{
+	text-align: center;
+	color: #1FBAD6;
+	margin: 0;
+	margin-top: 43px;
+	font-size: 11px;
+}
